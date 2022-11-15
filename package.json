@@ -1,0 +1,16 @@
+{
+  "name": "cordova-plugin-outsystems",
+  "version": "0.0.1",
+  "description": "Plugin Outsystems desde cero",
+  "cordova": {
+    "id": "cordova-plugin-outsystems",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "",
+  "license": "ISC"
+}
