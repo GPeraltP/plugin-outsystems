@@ -1,4 +1,4 @@
-package cordova.pluginl.outsystems;
+package cordova.plugin.outsystems;
 
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CallbackContext;
@@ -28,7 +28,7 @@ public class PluginOutsystems extends CordovaPlugin {
     private void coolMethod(String message, CallbackContext callbackContext) {
         if (message != null && message.length() > 0) {
             //Crear el widget con nuestro mensaje ingresado
-            Toast toast = Toast.makeText(cordova.getActivity(),message,Toast.LENGHT_SHORT);
+            Toast toast = Toast.makeText(cordova.getActivity(),message,Toast.LENGTH_SHORT);
             //Mostrar el widget
             toast.show();
             //Enviar un resultado callback success
