@@ -1,4 +1,4 @@
-package cordova.plugin.outsystems;
+package cordova.plugin.outsystems.PluginOutsystems;
 
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CallbackContext;
