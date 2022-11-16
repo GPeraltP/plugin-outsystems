@@ -12,6 +12,6 @@
 		</config-file>
 		<config-file parent="/*" target="AndroidManifest.xml">
 		</config-file>
-		<source-file src="src/android/PluginOutsystems.java" target-dir="src/cordova.plugin.outsystems.PluginOutsystems" />
+		<source-file src="src/android/PluginOutsystems.java" target-dir="src/cordova.plugin.outsystems.PluginOutsystems/PluginOutsystems" />
 	</platform>
 </plugin>
